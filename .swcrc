@@ -1,0 +1,18 @@
+{
+  "env": {
+    "targets": {
+      "node": 14
+    }
+  },
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "sourceMaps": "inline"
+}

@@ -1,0 +1,15 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "triggerTaskOnSave.tasks": {
+    "restart container": ["src/**/*"]
+  },
+  "material-icon-theme.folders.associations": {
+    "domain": "Core",
+    "adaptors": "Contract",
+    "frameworks": "Global",
+    "_base": "Base",
+    "entities": "Class",
+    "exceptions": "Error",
+    "useCases": "Custom"
+  }
+}

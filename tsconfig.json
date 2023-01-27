@@ -1,0 +1,25 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 14",
+  "compilerOptions": {
+    "lib": ["es6"],
+    "baseUrl": "src",
+    "module": "commonjs",
+    "outDir": "dist",
+    "target": "es2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["reflect-metadata"],
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src", "__tests__"],
+  "exclude": ["node_modules"]
+}
